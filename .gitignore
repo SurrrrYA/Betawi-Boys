@@ -1,0 +1,51 @@
+```gitignore
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.testing.example
+!.env.dusk.example
+
+# Laravel / PHP
+/vendor/
+/auth.json
+.phpactor.json
+.phpunit.result.cache
+.phpunit.cache/
+/Homestead.json
+/Homestead.yaml
+
+# Laravel generated files
+/bootstrap/ssr
+/storage/*.key
+/storage/pail
+/public/storage
+
+# Frontend
+/node_modules/
+/public/build/
+/public/hot
+
+# IDE
+/.fleet/
+/.idea/
+/.nova/
+/.vscode/
+/.zed/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+```
